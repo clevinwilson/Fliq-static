@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.user-header {
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    background-color: white;
+    height: 60px;
+    position: fixed;
+    z-index: 1;
+}
+
+.left-section,
+.middle-section,
+.right-section {
+    flex: 1;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.menu-icon-wrap,
+.search-wrap {
+    background-color: #E7E9EB;
+    padding: 10px;
+    border-radius: 20px;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.menu-icon {
+    font-size: 17px;
+}
+
+.menu-icon-wrap {
+    display: flex;
+    justify-content: center;
+}
+
+.bi-heart {
+    font-size: 16px;
+}
+
+.bi-cart2,
+.bi-person {
+    font-size: 19px;
+}
+
+
+/* carousel */
+
+.carousel-cards {
+    background-color: #C3DEDE;
+    margin: 19px;
+    border-radius: 25px;
+    height: 430px;
+}
+
+.carousel-image {
+    width: 100%;
+    height: 320px;
+    object-fit: contain;
+}
+
+.carousel-title {
+    font-weight: 300;
+    font-size: 52px;
+    line-height: 58px;
+}
+
+.carousel-title-tail {
+    font-weight: 700;
+    font-size: 51px;
+    line-height: 58px;
+    color: black;
+}
+
+.carousel-cards button {
+    color: white;
+    border: none;
+    padding: 10px 14px 10px 14px;
+    background: #000000;
+    border-radius: 22px;
+}
+
+.carousel-control {
+    background: #ffffff;
+    height: 53px;
+    width: 53px;
+    border-radius: 50%;
+    color: black;
+    margin: auto;
+    opacity: 1;
+    box-shadow: 1px 1px 4px 1px #a1a1a1;
+}
+
+.carousel-control i {
+    font-size: 19px;
+}
+
+@media screen and (max-width:768px) {
+
+    .carousel-title,
+    .carousel-title-tail {
+        font-size: 31px;
+    }
+
+    .carousel-title-tail {
+        margin-top: -13px !important;
+    }
+
+    .carousel-title {
+        margin-top: 12px;
+    }
+
+    .carousel-cards {
+        height: 473px;
+    }
+
+    .carousel-cards button {
+        color: white;
+        border: none;
+        padding: 8px 12px 8px 12px;
+        background: #000000;
+        border-radius: 22px;
+        font-size: 12px;
+    }
+
+    .carousel-image {
+        height: 222px;
+    }
+
+    .carousel-control {
+        width: 45px;
+        height: 45px;
+    }
+}
+
+
+
+@media screen and (min-width:1100px) {
+
+    .carousel-cards button {
+        padding: 12px 17px 12px 17px;
+        border-radius: 24px;
+    }
+
+    .carousel-title,
+    .carousel-title-tail {
+        font-size: 60px;
+        line-height: 74px;
+    }
+
+    .carousel-image {
+        height: 360px
+    }
+
+    .carousel-cards {
+        height: 461px;
+    }
+}
