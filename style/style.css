@@ -268,3 +268,22 @@ body {
 .product-price {
     font-weight: 500;
 }
+
+/* ad section */
+
+
+.advertisement-banner-wrap>img {
+    border-radius: 17px;
+    object-fit: cover;
+    object-position: left;
+}
+
+@media screen and (max-width:768px) {
+
+    .advertisement-banner-wrap>img {
+        height: 150px;
+        object-position: left;
+        object-fit: cover;
+
+    }
+}
