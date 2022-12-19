@@ -287,3 +287,34 @@ body {
 
     }
 }
+
+
+/* Highlights */
+.highlight-box {
+    background-color: #C9D5EB;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border-radius: 11px;
+    padding: 11px;
+}
+
+.hilight-info>h3 {
+    font-weight: 600;
+    font-size: 17px;
+}
+
+.hilight-info>span {
+    font-size: 12px;
+}
+
+.product-status {
+    background-color: #FF6BD1;
+    color: #ffffff;
+    width: 61px;
+    text-align: center;
+    font-weight: 400;
+    position: absolute;
+    top: 0;
+    padding: 3px;
+    border-radius: 11px 0px 3px 2px;
+}
